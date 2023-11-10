@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cinzel:wght@400;500;600;800;900&family=Croissant+One&family=Josefin+Sans:ital,wght@1,400;1,500&family=Orbitron&family=PT+Sans&family=Source+Code+Pro&family=Ubuntu:ital,wght@0,300;1,300&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.section{
+    display: block;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: orange;
+    background-color: white;
+}
+.sidebar .intro{
+    font-size: 1.5em;
+    color: orange;
+    margin-left: 53px;
+    margin-top: 40px;
+    display: block;
+   justify-items: center;
+   align-items: center;
+}
+.sidebar{
+    position: absolute;
+    background-color: white;
+    width: 17vw;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 30px;
+}
+.sidebar li:hover{
+text-decoration:underline;
+color: orange;
+}
+.sidebar li{
+    list-style: none;
+    padding: 30px;
+}
+.sidebar ul li a{
+ text-align: center;
+ text-decoration: none;
+ color: orange;
+ font-size: 1.2em;
+ margin-top: 22px;
+ font-weight: bold;
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.maincontent{
+    background-image: url("img/business\ women1.jpeg");
+    background-size: cover;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    color:orange ;
+    height: 100vh;
+}
+.humberger{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor:pointer;
+}
+.hum{
+    position: fixed;
+}
+.cross{
+  margin-left: 160px;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    margin-top: 100px;
+    margin-left: 38px;
+    /* border: 2px solid black; */
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-size: 3em; */
+}
+.hello{
+    font-size: 2.5em;
+  text-shadow: 1px 1px black;
+}
+.name{
+    font-size: 2.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+.info{
+    font-size: 1.9em;
+    text-shadow: 1px 1px black;
+}
+.somemore{
+    font-size: 1em;
+    text-shadow: 0.5px 0.6px black; 
+    margin-top: 4px;
+}
+.btn{
+    margin-top: 12px;
+    text-decoration: none;
+}
+button{
+    padding: 6px 6px;
+    color: orange;
+    background-color: white;
+    border: 2px solid orange;
+    border-radius: 12px;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+}
+button:hover{
+    background-color: orange;
+    color: white;
+
+}
+.maincontent-about {
+    background-image: url("img/contact-pages.png");
+    background-size: cover;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    color:orange ;
+    height: 120vh;
+}
+.devcontactform H2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    text-shadow: 1px 1px white; 
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#emailHelp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6em;
+    margin-top: 25px;
+    text-align: center;
+    text-shadow: 1px 1px white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.devcontactform form div{
+    margin-left: 43px;
+}
+.mb-3{
+    display: flex;
+    flex-direction: column;
+    padding: 12px 12px;
+    text-shadow: 1px 1px black;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 80%;
+}
+.form-check{
+    display: block;
+}
+.form-control{
+    margin: 0 4px;
+    width: 50vw;
+    height: 22px;
+}
+.btn-primary{
+    margin-left: 63px;
+    padding: 5px 32px;
+}
+.maincontent-aboutme{
+    background-image: url("img/istockphoto-1402604850-170667a.webp");
+    background-size: cover;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    color:white ;
+    height: 150vh;
+}
+.about-info h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 50px;
+    font-size: 3em;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 1px 1px black;
+}
+.about-info h2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 40px;
+    font-size: 2em;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 1px 1px black;
+}
+ .aboutpera p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 22px 33px;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+.skillcontent h1{
+    margin: 23px 23px;
+}
+.skillcontent{
+    padding: 12px 33px;
+    color: white;
+    font-weight: bold;
+}
+.skillitem .skill{
+    border: 2px solid white;
+    border-radius: 12px;
+    width: 30%;
+    background-color: red;
+    height: 14px;
+    margin: 12px 0px;
+    font-size: small;
+    text-align: end;
+}
+.skillitems .skill{
+    border: 2px solid white;
+    border-radius: 12px;
+    width: 30%;
+    background-color: orange;
+    height: 14px;
+    margin: 12px 0px;
+    font-size: small;
+    text-align: end;
+}
+.blogcontent{
+    /* background-color: rgb(244, 174, 45); */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.boxs_1{
+    border: 2px solid orange;
+    border-radius: 12px;
+    background-image: url("img/HTML5_logo_and_wordmark.svg.png");
+    background-size: 10vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: orange;
+    width: 20vw;
+    height: 40vh;
+    margin: 23px 34px;
+    background-color: white;
+}
+.boxs_2{
+    background-image: url("img/js.png");
+    background-size: 20vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid orange;
+    border-radius: 12px;
+    background-color: white;
+    color: orange;
+    width: 20vw;
+    height: 40vh;
+    margin: 23px 34px;
+}
+.boxs_3{
+    background-image: url("img/CSS3_logo_and_wordmark.svg");
+    background-size: 8vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid orange;
+    border-radius: 12px;
+    background-color: white;
+    color: orange;
+    width: 20vw;
+    height: 40vh;
+    margin: 23px 34px;
+}
+.boxs_4{
+    background-image: url("img/1200px-Node.js_logo.svg.png");
+    background-size: 10vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid orange;
+    border-radius: 12px;
+    background-color: white;
+    color: orange;
+    width: 20vw;
+    height: 40vh;
+    margin: 23px 34px;
+}
+.boxs_5{
+    background-image: url("img/download.png");
+    background-size: 10vw;
+    background-repeat: no-repeat;
+    background-position: center;
+     border: 2px solid orange;
+    border-radius: 12px;
+    background-color: white;
+    color: orange;
+    width: 20vw;
+    height: 40vh;
+    margin: 23px 34px;
+}
+.boxs_6{
+    background-image: url("img/download\ \(1\).png");
+    background-size: 15vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid orange;
+    border-radius: 12px;
+    background-color: white;
+    color: orange;
+    width: 20vw;
+    height: 40vh;
+    margin: 23px 34px;
+}
+.blogs button{
+    /* position: relative;
+    top: 160px; */
+  margin: 160px 97px;
+}
+.intro-content{
+    background-image: url("img/intro.jpg");
+    background-size: cover;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    color:white;
+    height: 100vh;
+    background-color: black;
+}
+.introcontent h1{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 60px;
+font-size: 3rem;
+}
+.introcontent p{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 12px 34px;
+font-size: 1.6em;
+}
+@media (min-width:250px) and (max-width:500px) {
+    .sidebar{
+        width: 30vw;
+        padding: 10px;
+    }
+    .sidebar nav{
+        padding: 10px;
+    }
+    .sidebar .intro{
+        margin-left: 40px;
+    }
+    .cross{
+        margin-left: 110px;
+    }
+    .maincontent{
+       height: 140vh;
+    }
+    .devinfo{
+        padding-top: 62px;
+    }
+    .maincontent-aboutme{
+        height: 50vh;
+     }
+     .aboutpera p{
+        margin-top:12px;
+        color: black;
+        text-shadow: 1px 0.1px orange;
+     }
+     .skillitem .skill{
+        border: 2px solid black;
+        width: 43vw;
+     }
+     .skillitems .skill{
+        border: 2px solid black;
+        width: 40vw;
+     }
+     .skillitems{
+        color: black;
+     }
+     .skillitem{
+        color: black;
+     }
+    .intro-content{
+        height: 290vh;
+     }
+     .about-info{
+        padding: 12px 23px;
+     }
+     .maincontent-about{
+        height: 150vh;
+     }
+     .blogs .btn{
+        display: none;
+     }
+   
+     }
+    
+     @media (min-width:500px) and (max-width:800px) {
+        .sidebar{
+            width: 25vw;
+            padding: 0px;
+        }
+        .sidebar nav{
+            padding: 10px;
+        }
+        .sidebar .intro{
+            /* margin-left: 10px; */
+            /* width: 50vw; */
+        }
+        .cross{
+            margin-left: 140px;
+        }
+    }
+     @media (min-width:500px) and (max-width:1109px) {
+        .maincontent-about{
+            height: 150vh;
+         }
+         .intro-content{
+            height: 190vh;
+         }
+     }
+     @media (min-width:500px) and (max-width:909px) {
+        .maincontent-aboutme{
+                height: 220vh;
+        }
+     }
+     .container-services h1 {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+     } 
+      .section h1.servic-h::after{
+        display: block;
+        content: "";
+        width: 120px;
+        height: 3px;
+        background-color: orange;
+        margin: 30px auto;
+     }
+     .box-bag{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+     }
+     .box-1{
+        /* border: 2px solid orange; */
+        border-radius: 8px;
+        width: 25%;
+        height: 49vh;
+        text-align: center;
+     }
+     .box-2{
+        /* border: 2px solid orange; */
+        border-radius: 8px;
+        width: 25%;
+        height: 49vh;
+        text-align: center;
+     }
+     .box-3{
+        /* border: 2px solid orange; */
+        border-radius: 8px;
+        width: 25%;
+        height: 49vh;
+        text-align: center;
+     }
+     .box-bag img{
+        margin-top: 20px;
+        margin-bottom: 10px;
+     }
+     .btn{
+        margin-top: 25px;
+        color: orange;
+     }
+    .btn button a{
+        text-decoration: none; 
+     }
+     .head-2{
+        margin: 4px;
+     }
+     
+     
+     
