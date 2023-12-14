@@ -25,6 +25,6 @@
 <h1>ℹ️- Side Navbar🗝️</h1>
 <h4>Side NavBar with hamberger and cross feature✨ Now explore it</h4>
 <img src="/img/Screenshot (200).png" alt="intro nav">
-<h5>Thanks for on our GitHub Profile and in my code so let's explore my code inform yme what you feel in code! Enjoy coding💻 Best of Luck*</h5>
+<h5>Thanks for coming on my GitHub Profile and in my code so let's explore my code then inform me what you feel in code! Enjoy coding💻 Best of Luck*</h5>
 <h1>Laiba-Afzal-Code</h1>
 <h1>♟️Developer Feature</h1>
