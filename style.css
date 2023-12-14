@@ -517,6 +517,7 @@ font-size: 1.6em;
     .foot h3{
         color: orange;
         padding: 8px;
+        font-family: 'Josefin Sans', sans-serif;
     }
     .foot h4{
         color:orange;
